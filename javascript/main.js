@@ -8,3 +8,16 @@ alert(idade + idade2)
 
 console.log(frase.replace("Japão", "Brasil"));
 
+function clicou() {
+	document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+}
+
+function redirecionar(){
+	//window.open("http://training-wheels-protocol.herokuapp.com/login");
+	window.location.href = "http://training-wheels-protocol.herokuapp.com/login";
+}
+
+function trocar(){
+	document.getElementById("mousemover").innerHTML = "Obrigado por passar o mouse";
+//	alert("trocar texto");
+}
