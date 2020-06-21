@@ -5,7 +5,7 @@ console.log(lista.reverse()); //trás os elementos de trás pra frente na lista
 
 console.log(lista.toString());
 console.log(lista.join(" - "));
-//lista.pop("pera"); retirar elemento de uma lista
+lista.pop("pera"); retirar elemento de uma lista
 
 //alert(lista[2]);
 
